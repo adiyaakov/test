@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">lineSms</string>
+    <string name="header_title">רשימת ממתינים</string>
+
+    <string name="dialog_header_title">הוספת שולחן</string>
+    <string name="dialog_cName">שם הלקוח</string>
+
+</resources>

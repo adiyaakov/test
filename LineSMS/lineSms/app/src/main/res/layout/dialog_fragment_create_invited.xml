@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layoutDirection="rtl"
+    android:background="@drawable/rounded_corner_radius">
+
+    <TextView
+
+        android:textColor="@color/topView"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:textSize="@dimen/dialog_header"
+        android:layout_height="wrap_content"
+        android:text="@string/dialog_header_title"
+        android:layout_gravity="right"
+
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/input_df_cName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dialog_inputs_margin"
+        android:hint="@string/dialog_cName"
+        android:inputType="text"
+        android:maxLength="8"/>
+
+    <EditText
+        android:id="@+id/input_df_cNumOfPeople"
+        android:layout_marginBottom="@dimen/dialog_inputs_margin"
+        android:maxLength="2"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="מספר מוזמנים"/>
+
+    <EditText
+
+        android:maxLength="11"
+        android:layout_marginBottom="@dimen/dialog_inputs_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="מס' טלפון"
+        android:id="@+id/input_df_cPhone" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dialog_add_button"
+        android:id="@+id/input_df_addButton"
+        android:layout_gravity="center"/>
+
+
+
+</LinearLayout>

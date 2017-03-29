@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#eaeaea"
+    android:layout_margin="5dp"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rv_cell_label_cName"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:textSize="@dimen/cell_size"
+        android:text="adi"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rv_cell_label_numOfPeople"
+        android:text="4"
+        android:textSize="@dimen/cell_size"
+
+        android:layout_below="@id/rv_cell_label_cName"
+        android:layout_alignParentRight="true"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="15m"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/rv_cell_label_wating_time"/>
+
+
+        <Button
+            android:layout_centerHorizontal="true"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/sms_icon"
+            android:id="@+id/rv_cell_sms_btn"
+            android:layout_below="@id/rv_cell_label_wating_time"/>
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
